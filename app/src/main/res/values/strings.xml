@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name" translatable="false">MyApplication</string>
+    <string name="search" translatable="false">Поиск</string>
+    <string name="catalog_title" translatable="false">Каталог</string>
+    <string name="person_title">Кабинет</string>
+    <string name="basket_title">Корзина</string>
+
+    <string name="reg_text">Войдите в профиль</string>
+    <string name="reg_small_text">Войдите и активируйте корзину</string>
+    <string name="log_button">Войти</string>
+    <string name="reg_button">Зарегистрироваться</string>
+    <string name="alert_log">Авторизоваться</string>
+    <string name="addPerson">Отправить</string>
+    <string name="back">Назад</string>
+    <string name="checkBox">Согласие на обработку персональных данных</string>
+    <string name="order">К оформмлению</string>
+
+    <string name="email">E-mail</string>
+    <string name="password">Пароль</string>
+    <string name="name">Имя</string>
+    <string name="sec_name">Фамилия</string>
+    <string name="fath_name">Отчество</string>
+    <string name="img">Изображение</string>
+    <string name="old_password">Существующий пароль</string>
+    <string name="new_password">Придумайте пароль</string>
+    <string name="repeat_password">Повторите пароль</string>
+
+    <string name="alert_reg">Введите все данные для регистрации</string>
+    <string name="error_name">Введите Ваше Имя</string>
+    <string name="error_surname">Введите Вашу Фамилию</string>
+    <string name="error_fathname">Введите Вашу Отчество</string>
+    <string name="helper_fathname">Необязательное поле</string>
+    <string name="error_email">Введите Ваш E-mail</string>
+    <string name="error_phone">Введите Ваш номер телефона</string>
+    <string name="error_pass">Введите Ваш пароль</string>
+    <string name="alert_add">Поздравляем пользователь добавлен</string>
+    <string name="error_auto">Ошибка авторизации!!! Введите Ваши данные!!!</string>
+    <string name="error_checked">Не стоит согласие на обработку персональных данных</string>
+    <string name="error_db">Произошла ошибка с базой данных</string>
+    <!-- <string name="empty_list">Просим прощения на данный момент каталог товаров пуст</string> -->
+    <string name="flag_basket">Для активации корзины войдите в свой профиль</string>
+    <string name="error_old_password">Введенный пароль не совпадает с существующим</string>
+    <string name="error_repeat_password">Пароли не совпадают</string>
+    <string name="error_size_password">Введите новый пароль не менее 5 символов</string>
+    <string name="error_input">Введите Ваши данные</string>
+    <string name="error_email_format">Неправильный формат E-mail</string>
+
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="delete_profile">Удалить профиль</string>
+    <string name="exit_profile">Выйти из аккаунта</string>
+    <string name="sort">Сортировка</string>
+    <string name="in_basket">В корзину</string>
+    <string name="empty_basket">Корзина пуста</string>
+    <string name="delete_title">Удалить</string>
+    <string name="edit_title">Редактировать</string>
+    <string name="add">Добавить</string>
+    <string name="save">Сохранить</string>
+    <string name="message_dialog_edit">Заполните все данные!!!</string>
+    <string name="edit_password">Сменить пароль</string>
+
+    <string name="title_dialog">Предупреждение</string>
+    <string name="negative_dialog">Отменить</string>
+    <string name="positive_dialog">Подтвердить</string>
+
+    <string name="add_image">Добавить изображение</string>
+    <string name="name_category">Название категории</string>
+    <string name="name_product">Название продукта</string>
+    <string name="manufact_product">Производитель</string>
+    <string name="desc_product">Описание</string>
+    <string name="price_product">Цена</string>
+    <string name="category_product">Категория</string>
+    <string name="order_count">Кол-во товаров: </string>
+    <string name="price_order">Сумма заказа: </string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

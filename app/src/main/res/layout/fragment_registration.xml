@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_registration"
+    tools:context=".fragments.PersonFragment">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/reg_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:met_baseColor="@color/colorAccent"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="@string/error_name"
+        app:met_primaryColor="@color/colorPrimary"
+        app:met_singleLineEllipsis="true"
+        app:met_textColorHint="@color/colorAccent" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/reg_surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/sec_name"
+        app:met_baseColor="@color/colorAccent"
+        app:met_primaryColor="@color/colorPrimary"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="@string/error_surname"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/reg_name"
+        app:layout_constraintStart_toStartOf="@+id/reg_name"
+        app:layout_constraintTop_toBottomOf="@+id/reg_name"
+        app:met_singleLineEllipsis="true"
+        app:met_textColorHint="@color/colorAccent" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/reg_fathname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autofillHints="name"
+        android:ems="10"
+        android:hint="@string/fath_name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/reg_surname"
+        app:layout_constraintStart_toStartOf="@+id/reg_surname"
+        app:layout_constraintTop_toBottomOf="@+id/reg_surname"
+        app:met_baseColor="@color/colorAccent"
+        app:met_errorColor="@color/colorAccent"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="@string/error_fathname"
+        app:met_helperText="@string/helper_fathname"
+        app:met_primaryColor="@color/colorPrimary"
+        app:met_singleLineEllipsis="true"
+        app:met_textColorHint="@color/colorAccent" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/reg_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="emailAddress"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/reg_fathname"
+        app:layout_constraintStart_toStartOf="@+id/reg_fathname"
+        app:layout_constraintTop_toBottomOf="@+id/reg_fathname"
+        app:met_baseColor="@color/colorAccent"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="@string/error_email"
+        app:met_primaryColor="@color/colorPrimary"
+        app:met_singleLineEllipsis="true"
+        app:met_textColorHint="@color/colorAccent" />
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/reg_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="password"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/reg_email"
+        app:layout_constraintStart_toStartOf="@+id/reg_email"
+        app:layout_constraintTop_toBottomOf="@+id/reg_email"
+        app:met_baseColor="@color/colorAccent"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="@string/error_pass"
+        app:met_minCharacters="5"
+        app:met_primaryColor="@color/colorPrimary"
+        app:met_singleLineEllipsis="true"
+        app:met_textColorHint="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/registration_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:text="@string/addPerson"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/checkBox"
+        app:layout_constraintStart_toStartOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox"
+        app:layout_constraintVertical_bias="0.0">
+
+    </Button>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:buttonTint="@color/colorAccent"
+        android:text="@string/checkBox"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/reg_pass"
+        app:layout_constraintStart_toStartOf="@+id/reg_pass"
+        app:layout_constraintTop_toBottomOf="@+id/reg_pass" />
+</androidx.constraintlayout.widget.ConstraintLayout>

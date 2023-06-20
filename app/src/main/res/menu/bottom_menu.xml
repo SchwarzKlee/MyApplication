@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/catalog_item"
+        android:title="@string/catalog_title"
+        android:icon="@drawable/home_24"/>
+
+    <item
+        android:id="@+id/basket_item"
+        android:title="@string/basket_title"
+        android:icon="@drawable/shopping_bag_24" />
+
+    <item
+        android:id="@+id/person_item"
+        android:title="@string/person_title"
+        android:icon="@drawable/person_24" />
+</menu>
